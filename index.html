@@ -225,6 +225,11 @@ section{position:relative;overflow:hidden}
   align-items:center;
   padding-top:var(--header-h);
   padding-bottom:60px;
+  /* Image de fond Unsplash (nuit urbaine) + voile bleu nuit pour lisibilité */
+  background:
+    linear-gradient(160deg, rgba(12,18,32,0.92) 0%, rgba(12,18,32,0.82) 45%, rgba(12,18,32,0.94) 100%),
+    url('https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+  background-attachment:scroll;
 }
 .hero::before{
   content:"";
